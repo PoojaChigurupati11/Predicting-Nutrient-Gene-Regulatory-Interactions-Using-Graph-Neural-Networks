@@ -18,15 +18,15 @@ Treat this as a **link prediction problem**:
 
 1. **CTD (Comparative Toxicogenomics Database)**  
    Known chemical-gene interactions  
-   🔗 https://ctdbase.org/downloads/
+    https://ctdbase.org/downloads/
 
 2. **HMDB (Human Metabolome Database)**  
    Used to filter for nutrients only  
-   🔗 https://hmdb.ca/downloads
+    https://hmdb.ca/downloads
 
 3. **BioMart / Ensembl Gene Metadata**  
    Human gene metadata (symbols, chromosomes)  
-   🔗 https://useast.ensembl.org/index.html
+    https://useast.ensembl.org/index.html
 
 
 ## Model Architecture
@@ -42,5 +42,4 @@ Treat this as a **link prediction problem**:
 - Top-K prediction of **novel regulatory pairs**
 - ROC-AUC: **0.9882**, Test Accuracy: **95.2%**
 
----
 
