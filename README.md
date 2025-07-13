@@ -13,7 +13,6 @@ Treat this as a **link prediction problem**:
 - **Edges**: Known regulatory interactions
 - **Objective**: Predict new (unseen) nutrient–gene links
 
----
 
 ## Datasets Used
 
@@ -29,15 +28,12 @@ Treat this as a **link prediction problem**:
    Human gene metadata (symbols, chromosomes)  
    🔗 https://useast.ensembl.org/index.html
 
----
 
 ## Model Architecture
 
 - **Graph Convolutional Network (GCN)** for node embedding
 - **MLP-based link predictor** to estimate interaction probability
-- Framework: PyTorch Geometric
 
----
 
 ## Features
 
