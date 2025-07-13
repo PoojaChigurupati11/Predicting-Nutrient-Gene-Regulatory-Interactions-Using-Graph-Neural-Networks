@@ -1,10 +1,9 @@
 # Predicting-Nutrient-Gene-Regulatory-Interactions-Using-Graph-Neural-Networks
 
-# 🧬 Predicting Nutrient–Gene Regulatory Interactions using Graph Neural Networks
 
 This project leverages **Graph Neural Networks (GNNs)** to predict novel regulatory interactions between nutrients and human genes. By modeling the biological data as a bipartite graph, we train a GCN-based link prediction model to uncover potential relationships that have not yet been experimentally validated.
 
-## 🔍 Problem Statement
+## Problem Statement
 
 Certain nutrients (e.g., vitamins, minerals, bioactives) regulate gene expression. But most nutrient–gene interactions remain unknown due to experimental constraints. Can we **predict these hidden regulatory links** computationally?
 
@@ -16,7 +15,7 @@ Treat this as a **link prediction problem**:
 
 ---
 
-## 📁 Datasets Used
+## Datasets Used
 
 1. **CTD (Comparative Toxicogenomics Database)**  
    Known chemical-gene interactions  
@@ -32,7 +31,7 @@ Treat this as a **link prediction problem**:
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 - **Graph Convolutional Network (GCN)** for node embedding
 - **MLP-based link predictor** to estimate interaction probability
@@ -40,7 +39,7 @@ Treat this as a **link prediction problem**:
 
 ---
 
-## ✨ Features
+## Features
 
 - Link prediction on bipartite biological graph
 - Model trained on known nutrient–gene interactions
